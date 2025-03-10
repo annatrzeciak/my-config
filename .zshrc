@@ -18,7 +18,6 @@ gsa() {
 alias gp='git push origin $(git symbolic-ref --short HEAD)'
 alias gpl='git pull origin $(git symbolic-ref --short HEAD)'
 alias gmm='git fetch && git merge origin/master'
-alias gs='git status'  
 alias gclean='git clean -fd'  
 alias gca='git commit -a -m'  
 alias gl='git log --oneline --graph --decorate'  
